@@ -85,19 +85,16 @@ button:hover {
     border: 1px solid black;
 }
 
-form {
-    display: grid;
-    gap: 10px;
-}
 
-label {
-    font-weight: bold;
-}
 
-input,
+
+
 textarea {
     width: 100%;
     padding: 8px;
+    resize: none;
+    margin: 10px;
+
 }
 .contact-info{
     width: 600px;

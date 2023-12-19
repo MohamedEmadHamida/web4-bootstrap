@@ -47,7 +47,7 @@ margin: auto;
 
 }
 header nav ul li .active,
-header nav ul li :hover{
+header nav ul li  a:hover{
     border-bottom: 2px solid var(--main-color);
     color: var(--main-color);
     transition: 0.2s;
